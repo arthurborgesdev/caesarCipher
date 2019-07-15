@@ -1,0 +1,26 @@
+{
+  "name": "caesarcipher",
+  "version": "1.0.0",
+  "description": "caesarCipher for codenation challenge",
+  "main": "caesarCypher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurborgesdev/caesarCipher.git"
+  },
+  "keywords": [
+    "caesarCipher"
+  ],
+  "author": "Arthur Borges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthurborgesdev/caesarCipher/issues"
+  },
+  "homepage": "https://github.com/arthurborgesdev/caesarCipher#readme",
+  "dependencies": {
+    "axios": "0.19.0",
+    "dotenv": "8.0.0"
+  }
+}
