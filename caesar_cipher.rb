@@ -3,10 +3,8 @@
 def caesar_cipher(str, num)
   alphabet = "abcdefghijklmnopqrstuvwxyz" #26 letters, 0 to 25 indexes
   str.each_char.map { |char| 
-    (alphabet.index(char) + num < 26 ?
-      alphabet[alphabet.index(char) + num] :
-      alphabet[(alphabet.index(char) + num) % 26]
-    )
+    new_index = alphabet.index(char) + num
+    (new_index < 26 ? alphabet[new_index] : alphabet[new_index % 26])
   }.join('')
 end
 
